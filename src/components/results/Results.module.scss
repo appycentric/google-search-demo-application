@@ -1,0 +1,74 @@
+.Results {
+    padding: 20px;
+    font-family: 'Roboto', serif;
+}
+
+.Results div {
+    color: var(--bs-dark);
+    font-size: calc(0.5rem + 0.8vw);
+    line-height: calc(0.5rem + 0.8vw);
+}
+  
+.Results div button {
+    padding-top: calc(0.3vw);
+    padding-bottom: calc(0.3vw);
+    margin-right: calc(1vw);
+}
+  
+.Results div span {
+    padding-top: 10px;
+}
+
+
+.Cleft {
+    clear: left;
+}
+
+.Restable thead tr th:first-child {
+    max-width: 20%;
+    width: 10%;
+}
+  
+.Restable tbody tr td:first-child {
+    max-width: 20%;
+    width: 10%;
+}
+
+.Legend {
+    font-size: smaller;
+}
+  
+.Legendbtn {
+    box-shadow: 2px 2px 4px 0px var(--bs-gray-400);
+}
+
+.blue {
+    color: #609 !important;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.small {
+    font-weight: 300;
+    font-size: small !important;
+}
+
+.leftCell {
+    width: 100px; 
+    height: 50px;
+    background: #F8F8F8;
+    text-align: center;
+}
+
+.rightCell {
+    padding: 10px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    transform: scale(0.8); 
+}
+
+.zoom:hover {
+    transform: scale(1.0);
+}

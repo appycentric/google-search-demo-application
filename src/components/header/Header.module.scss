@@ -1,0 +1,21 @@
+.Header {
+    background: url('../../../public/img/demoapp.png') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 36px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+    color: #33c;
+}
+
+label {
+    text-align: left !important;
+    height: 100% !important;
+    vertical-align: baseline !important;
+}
+
+label, input, select, button {
+    font-size: calc(0.6vw + 0.6rem) !important;
+}

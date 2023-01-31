@@ -1,0 +1,39 @@
+.ErrorView {
+    padding: 1.2rem;
+    font-size: 0.8rem;
+    background-color: lightgray;
+    color: darkred;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+h3,.h3 {
+    font-size: calc(1.3rem + 0.3vw);
+    margin-bottom: calc(0.5rem + 0.3vw);
+}
+h4,.h4 {
+    font-size: calc(1.0rem + 0.3vw);
+    margin-bottom: calc(0.5rem + 0.3vw);
+    font-family: monospace;
+}
+h5,.h5 {
+    font-size: calc(0.8rem + 0.3vw);
+    margin-bottom: calc(0.5rem + 0.3vw);
+    font-family: monospace;
+}
+
+.InfoView {
+    padding: 1.2rem;
+    font-size: 0.8rem;
+    background-color: beige;
+    color: darkgreen;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.foot {
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 5rem;
+    align-items: baseline;
+}

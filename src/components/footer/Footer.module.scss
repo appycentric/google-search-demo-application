@@ -1,0 +1,20 @@
+.Footer {
+ position: fixed;
+ bottom: 0px;
+ width: 100%;
+}
+
+.Logo {
+    width: 1.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.1rem;
+}
+
+.disabled {
+    cursor: not-allowed;
+    color: gray;
+}
+
+.noUnderline {
+    text-decoration: none !important;
+}
